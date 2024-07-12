@@ -1,0 +1,61 @@
+.Buttons{
+    border: solid black 2px;
+    display:flex;
+    flex-direction: column;
+    background-color:lightpink;
+    padding:20px;
+}
+.ElementButtons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+}
+.Header {
+    text-align:center;
+    font-size:46px;
+}
+button{
+    transition: transform 0.1s ease-in-out;
+    width:200px;
+    height:auto;
+    background-color:white;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.scoreboard{
+    border:solid black 2px;
+    background-color:lightcoral;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    flex-direction:row;
+}
+.ScoreText{
+    text-align: center;
+    font-size:24px;
+}
+img {
+    pointer-events: none;
+    width: 100%;
+    height: auto;
+}
+.ImageContainer{
+    transition: transform 0.1s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    border: solid black 2px;
+    width:200px;
+    height:200px;
+    background-color:white;
+}
+.ScoreImage{
+    width:200px;
+    height:auto;
+
+}
